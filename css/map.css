@@ -1,0 +1,34 @@
+/*Map Stylesheet*/
+
+html {
+    height: 100%;
+}
+
+body {
+    margin:0;
+    padding: 0;
+    height: 100%;
+}
+
+#map-canvas {
+    height:250px;
+    width:100%;
+}
+
+/*
+#map-canvas {
+    position: relative;
+    padding-bottom: 56.25%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+#map-canvas iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+    max-height:250px;
+}*/
+
+/*Responsive map settings*/
